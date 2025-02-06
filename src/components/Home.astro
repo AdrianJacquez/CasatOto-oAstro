@@ -1,10 +1,11 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 ---
 
     <section id="Home" class=" relative h-screen flex justify-center ">
         <!-- Imagen como fondo -->
-        <img src="./images/casa_otono.webp" alt="casa otoño" class="absolute top-0 left-0 w-full h-full object-cover z-0 loading="lazy"">
+        <Image src="https://www.casaotono.com/images/casa_otono.webp" alt="casa otoño" class="absolute top-0 left-0 w-full h-full object-cover z-0 " loading="eager" fetchpriority="high" width={500} height={500}/>
 
         <!-- Filtro de color -->
         <div class="absolute top-0 left-0 w-full h-full bg-brick opacity-50 z-10"></div>
