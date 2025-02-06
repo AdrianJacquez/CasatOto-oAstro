@@ -187,7 +187,7 @@ export const Carousel = () => {
   return (
     <>
       {windoWidth >= 1024 && (
-        <div className="flex z-50">
+        <div className="flex z-30">
           <div className="-translate-y-[4%] translate-x-[80%] 2xl:translate-x-[180%] flex flex-col justify-around w-28 h-80 transition-all">
             {habitaciones.map((habitacion, index) => (
               <h1
