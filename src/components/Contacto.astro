@@ -2,7 +2,7 @@
 ---
 ---
 
-<section id="Contacto"  class=" translate-y-[95%] sm:translate-y-[30%] md:translate-y-[40%] lg:translate-y-[20%]">
+<section id="Contacto"  class=" ">
     
    <div  class="grid grid-cols-1 md:grid-cols-2 font-spartan" >
         <div class="flex flex-col items-center md:col-span-1 md:items-start">
@@ -139,7 +139,6 @@
 
             if (response.ok) {
                 document.getElementById("statusMessage").innerText = "✅ Mensaje enviado con éxito";
-                console.log("El mensaje fue enviado exitadamente")
                 form.reset(); // Limpia el formulario
             } else {
                 throw new Error("Error al enviar el formulario");

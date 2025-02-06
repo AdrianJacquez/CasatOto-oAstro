@@ -9,7 +9,7 @@ const opcionesLeft = [
 const opcionesRigth = [
     { title: "Instalaciones", href: "#Instalaciones" },
     { title: "Actividades", href: "#Actividades" },
-    { title: "Contacto", href: "#Footer" },
+    { title: "Contacto", href: "#Contacto" },
 ];
 
 const opcionesMovil = [
@@ -206,7 +206,7 @@ const opcionesMovil = [
     window.addEventListener('scroll', () => {
   const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
 
-  if (scrollPercentage > 5) { 
+  if (scrollPercentage > 1) { 
     const navs = document.querySelectorAll('nav');
     navs.forEach(nav => nav.classList.add('scrolled'));
   } else {

@@ -65,7 +65,7 @@ const SlideContentLg = ({ habitacion }) => {
 
   return (
     <div className="-translate-y-8 w-[70%] h-full flex flex-col justify-center p-4 transition-all duration-300 ">
-      <div className="grid grid-cols-3 grid-rows-2 gap-4 w-full max-h-[420px]  z-40">
+      <div className="grid grid-cols-3 grid-rows-2 gap-4 w-full max-h-[420px]  z-30">
         <div className="col-span-2 row-span-2 shadow-md rounded-md ">
           <motion.img
             src={imgBig[0]}
@@ -222,7 +222,7 @@ export const Carousel = () => {
             key={index}
             className="w-full h-full flex justify-center"
           >
-            <div className="font-spartan max-w-96 h-[550px] sm:min-h-full sm:min-w-full left-1/2 -translate-x-1/2 lg:-translate-x-[51%] lg:z-20 relative flex justify-center items-center">
+            <div className="font-spartan max-w-96 h-[550px] sm:min-h-full sm:min-w-full left-1/2 -translate-x-1/2 lg:-translate-x-[51%] lg:z-10 relative flex justify-center items-center">
               {windoWidth >= 1024 ? (
                 <SlideContentLg habitacion={habitacion} />
               ) : (

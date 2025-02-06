@@ -75,7 +75,6 @@ export const Carousel = () => {
 
   useEffect(() => {
     setWindoWidth(window.innerWidth);
-    console.log(`El valor del vieport es : ${windoWidth}`);
   }, [windoWidth]);
 
   const handleReplaceImg = (cuadrante) => {

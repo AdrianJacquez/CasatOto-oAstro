@@ -141,7 +141,6 @@ export const Carousel = () => {
 
   useEffect(() => {
     setWindoWidth(window.innerWidth);
-    console.log(`El viewport mide: ${windoWidth}`);
   }, [windoWidth]);
 
   return (
