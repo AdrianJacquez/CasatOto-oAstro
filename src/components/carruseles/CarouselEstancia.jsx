@@ -171,6 +171,7 @@ export const Carousel = () => {
         <SwiperSlide key={i} className="flex justify-center pb-12 ">
           <div className=" max-w-80 h-[540px] sm:max-w-96 sm:h-[550px]  left-1/2 -translate-x-1/2 relative flex justify-center items-center  ">
             <img
+              loading="lazy"
               src={estancia.image}
               alt={estancia.title}
               className="absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md "

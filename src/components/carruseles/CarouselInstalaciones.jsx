@@ -133,6 +133,7 @@ export const Carousel = () => {
                       </h1>
                     </div>
                     <img
+                      loading="lazy"
                       src={imgBig[1].image}
                       alt="Imagen 2"
                       className="rounded-md w-full h-full object-cover aspect-square "
@@ -148,6 +149,7 @@ export const Carousel = () => {
                       </h1>
                     </div>
                     <img
+                      loading="lazy"
                       src={imgBig[2].image}
                       alt="Imagen 2"
                       className="rounded-md w-full h-full object-cover aspect-square "
@@ -163,6 +165,7 @@ export const Carousel = () => {
                       </h1>
                     </div>
                     <img
+                      loading="lazy"
                       src={imgBig[0].image}
                       alt="Imagen 1"
                       className="rounded-md w-full h-full object-cover aspect-square "
@@ -185,6 +188,7 @@ export const Carousel = () => {
                       </h1>
                     </div>
                     <img
+                      loading="lazy"
                       src={imgBig[3].image}
                       alt="Imagen 1"
                       className="rounded-md w-full h-full object-cover aspect-square "
@@ -197,6 +201,7 @@ export const Carousel = () => {
                       </h1>
                     </div>
                     <img
+                      loading="lazy"
                       src={imgBig[4].image}
                       alt="Imagen 2"
                       className="rounded-md w-full h-full object-cover aspect-square "
@@ -212,6 +217,7 @@ export const Carousel = () => {
                       </h1>
                     </div>
                     <img
+                      loading="lazy"
                       src={imgBig[5].image}
                       alt="Imagen 2"
                       className="rounded-md w-full h-full object-cover aspect-square "
@@ -227,6 +233,7 @@ export const Carousel = () => {
                       </h1>
                     </div>
                     <img
+                      loading="lazy"
                       src={imgBig[6].image}
                       alt="Imagen 2"
                       className="rounded-md w-full h-full object-cover aspect-square "

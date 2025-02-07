@@ -56,7 +56,7 @@ const objetivoLogos = [
                        objetivoLogos.map((objetivo) => ( 
                        <li class="relative flex  text-black font-light text-center  text-[1.3rem] sm:text-[1.5rem]   items-center justify-start m-3 pl-12 w-[296px] lg:w-[330] h-[47px] md:pl-16" >
 
-                        <img src={objetivo.src} alt={objetivo.alt} class="absolute bottom-1 left-0 w-10 pt-3 mr-5"/><span class="ml-5">{objetivo.name}</span>
+                        <img loading="lazy" src={objetivo.src} alt={objetivo.alt} class="absolute bottom-1 left-0 w-10 pt-3 mr-5"/><span class="ml-5">{objetivo.name}</span>
                         
                         </li>)) 
                     }
@@ -65,7 +65,7 @@ const objetivoLogos = [
 
                
            </div>
-         <img class=" lg:col-span-2 h-full lg:h-[80%] w-full lg:rounded-bl-xl" src="./images/seccionObjetivo/objetivo_img.webp" alt="Viejito con pelota en las manos">
+         <img loading="lazy" class=" lg:col-span-2 h-full lg:h-[80%] w-full lg:rounded-bl-xl" src="./images/seccionObjetivo/objetivo_img.webp" alt="Viejito con pelota en las manos">
         </div>
         
     </section>

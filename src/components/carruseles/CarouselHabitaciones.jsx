@@ -67,45 +67,30 @@ const SlideContentLg = ({ habitacion }) => {
     <div className="-translate-y-8 w-[70%] h-full flex flex-col justify-center p-4 transition-all duration-300 ">
       <div className="grid grid-cols-3 grid-rows-2 gap-4 w-full max-h-[420px]  z-30">
         <div className="col-span-2 row-span-2 shadow-md rounded-md ">
-          <motion.img
+          <img
+            loading="lazy"
             src={imgBig[0]}
             alt="Imagen 1"
             className="rounded-md w-full h-full object-cover aspect-square"
-            initial={{ opacity: 0, scale: 0.9 }} // Comienza más pequeño
-            animate={{ opacity: 1, scale: 1 }} // Transición de escala
-            transition={{
-              duration: 0.6, // Aumenta la duración
-              ease: "easeInOut", // Easing más dramático
-            }}
           />
         </div>
         <div className="row-start-1 col-start-3 shadow-md rounded-md">
-          <motion.img
+          <img
+            loading="lazy"
             src={imgBig[1]}
             alt="Imagen 2"
             className="rounded-md w-full h-full object-cover aspect-square cursor-pointer"
-            initial={{ opacity: 0, scale: 0.9 }} // Comienza más pequeño
-            animate={{ opacity: 1, scale: 1 }} // Transición de escala
-            transition={{
-              duration: 0.6, // Aumenta la duración
-              ease: "easeInOut", // Easing más dramático
-            }}
             onClick={() => {
               handleReplaceImg(2);
             }}
           />
         </div>
         <div className="row-start-2 col-start-3 shadow-md rounded-md">
-          <motion.img
+          <img
+            loading="lazy"
             src={imgBig[2]}
             alt="Imagen 3"
             className="rounded-md w-full h-full object-cover aspect-square cursor-pointer"
-            initial={{ opacity: 0, scale: 0.9 }} // Comienza más pequeño
-            animate={{ opacity: 1, scale: 1 }} // Transición de escala
-            transition={{
-              duration: 0.6, // Aumenta la duración
-              ease: "easeInOut", // Easing más dramático
-            }}
             onClick={() => {
               handleReplaceImg(3);
             }}
@@ -144,15 +129,17 @@ const SlideContentMd = ({ habitacion }) => {
       <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:w-[600px] md:w-[800px] lg:w-[1000px] max-h-[400px] ">
         <div className="col-span-2 shadow-lg shadow-gray-500 rounded-md ">
           <img
+            loading="lazy"
             src={imgBig[0]}
-            alt="Imagen 1"
+            alt="Imagen 4"
             className="rounded-md w-full h-full object-cover aspect-square "
           />
         </div>
         <div className="shadow-md rounded-md shadow-gray-500">
           <img
+            loading="lazy"
             src={imgBig[1]}
-            alt="Imagen 2"
+            alt="Imagen 5"
             className="rounded-md w-full h-full object-cover aspect-square "
             onClick={() => {
               handleReplaceImg(2);
@@ -161,8 +148,9 @@ const SlideContentMd = ({ habitacion }) => {
         </div>
         <div className="shadow-md rounded-md shadow-gray-500">
           <img
+            loading="lazy"
             src={imgBig[2]}
-            alt="Imagen 3"
+            alt="Imagen 6"
             className="rounded-md w-full h-full object-cover aspect-square "
             onClick={() => {
               handleReplaceImg(3); // Solo pasar el número del cuadrante

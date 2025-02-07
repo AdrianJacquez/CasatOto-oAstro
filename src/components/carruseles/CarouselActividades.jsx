@@ -1,13 +1,13 @@
 // Import Swiper core and required modules
-import { Pagination, EffectCreative } from "swiper/modules";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const actividades = [
   {
@@ -95,6 +95,7 @@ export const Carousel = () => {
         <SwiperSlide key={i} className="flex justify-center pb-12 ">
           <div className=" max-w-80 h-[540px] sm:max-w-96 sm:h-[550px]  left-1/2 -translate-x-1/2 relative flex justify-center items-center  ">
             <img
+              loading="lazy"
               src={actividad.image}
               alt={actividad.title}
               className="absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md "
