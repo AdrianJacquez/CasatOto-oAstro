@@ -222,7 +222,7 @@ export const Carousel = () => {
             key={index}
             className="w-full h-full flex justify-center"
           >
-            <div className="font-spartan max-w-96 h-[550px] sm:min-h-full sm:min-w-full left-1/2 -translate-x-1/2 lg:-translate-x-[51%] lg:z-10 relative flex justify-center items-center">
+            <div className=" max-w-96 h-[550px] sm:min-h-full sm:min-w-full left-1/2 -translate-x-1/2 lg:-translate-x-[51%] lg:z-10 relative flex justify-center items-center">
               {windoWidth >= 1024 ? (
                 <SlideContentLg habitacion={habitacion} />
               ) : (

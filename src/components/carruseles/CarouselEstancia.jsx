@@ -169,7 +169,7 @@ export const Carousel = () => {
     >
       {estancias.map((estancia, i) => (
         <SwiperSlide key={i} className="flex justify-center pb-12 ">
-          <div className="font-spartan max-w-80 h-[540px] sm:max-w-96 sm:h-[550px]  left-1/2 -translate-x-1/2 relative flex justify-center items-center  ">
+          <div className=" max-w-80 h-[540px] sm:max-w-96 sm:h-[550px]  left-1/2 -translate-x-1/2 relative flex justify-center items-center  ">
             <img
               src={estancia.image}
               alt={estancia.title}

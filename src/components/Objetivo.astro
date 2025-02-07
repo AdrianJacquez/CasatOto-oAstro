@@ -42,11 +42,11 @@ const objetivoLogos = [
         <!-- Contenedor del texto -->
          <div class=" grid grid-cols-1 lg:grid-cols-5 min-h-full">
             <div class=" flex flex-col  items-center sm:items-start text-center sm:text-start rounded-lg  lg:col-span-3 ">
-            <h1  class="font-spartan text-brick font-medium  text-start my-5 pt-7 lg:pt-12 text-[2rem] sm:text-[2.5rem] sm:my-7 sm:pt-8 sm:pl-20 ">
+            <h1  class=" text-brick font-medium  text-start my-5 pt-7 lg:pt-12 text-[2rem] sm:text-[2.5rem] sm:my-7 sm:pt-8 sm:pl-20 ">
                 Nuestro objetivo
             </h1>
 
-            <h2 class="font-spartan text-black font-light  mx-10 mt-10 text-[1.3rem] sm:text-[1.6rem] sm:mt-5  sm:mx-20  md:mx-20" >
+            <h2 class=" text-black font-light  mx-10 mt-10 text-[1.3rem] sm:text-[1.6rem] sm:mt-5  sm:mx-20  md:mx-20" >
                 Es fomentar la autosuficiencia, la socialización y el desarrollo de las habilidades y capacidades de cada residente. Nuestro equipo especializado está comprometido con el bienestar individual de cada uno de nuestros apreciados residentes. Guiados por nuestra filosofía basada en valores fundamentales como:
             </h2>
            
@@ -54,7 +54,7 @@ const objetivoLogos = [
                 <ul class="flex flex-wrap items-center justify-around max-w-[940px] my-10 mx-10">
                     {
                        objetivoLogos.map((objetivo) => ( 
-                       <li class="relative flex font-spartan text-black font-light text-center  text-[1.3rem] sm:text-[1.5rem]   items-center justify-start m-3 pl-12 w-[296px] lg:w-[330] h-[47px] md:pl-16" >
+                       <li class="relative flex  text-black font-light text-center  text-[1.3rem] sm:text-[1.5rem]   items-center justify-start m-3 pl-12 w-[296px] lg:w-[330] h-[47px] md:pl-16" >
 
                         <img src={objetivo.src} alt={objetivo.alt} class="absolute bottom-1 left-0 w-10 pt-3 mr-5"/><span class="ml-5">{objetivo.name}</span>
                         

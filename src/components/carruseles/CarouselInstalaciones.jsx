@@ -120,7 +120,7 @@ export const Carousel = () => {
         {windoWidth >= 1024 ? (
           <>
             <SwiperSlide>
-              <div className="font-spartan min-h-full min-w-full left-1/2 -translate-x-[51%]  relative flex justify-center items-center  rounded-lg ">
+              <div className=" min-h-full min-w-full left-1/2 -translate-x-[51%]  relative flex justify-center items-center  rounded-lg ">
                 <div
                   className="grid grid-cols-3 grid-rows-2 gap-4 max-w-[1200px] max-h-[500px] "
                   onMouseEnter={() => swiperInstance?.autoplay.stop()}
@@ -172,7 +172,7 @@ export const Carousel = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="font-spartan min-h-full min-w-full left-1/2 -translate-x-[51%]  relative flex justify-center items-center  rounded-lg ">
+              <div className=" min-h-full min-w-full left-1/2 -translate-x-[51%]  relative flex justify-center items-center  rounded-lg ">
                 <div
                   className="grid grid-cols-3 grid-rows-3 gap-4  max-w-[1200px] max-h-[500px] "
                   onMouseEnter={() => swiperInstance?.autoplay.stop()}
@@ -242,7 +242,7 @@ export const Carousel = () => {
         ) : (
           instalaciones.map((instalacion) => (
             <SwiperSlide key={instalacion.title}>
-              <div className="font-spartan max-w-96 h-[535px] sm:min-h-full sm:min-w-full left-1/2 -translate-x-1/2  relative flex justify-center items-center  rounded-lg ">
+              <div className=" max-w-96 h-[535px] sm:min-h-full sm:min-w-full left-1/2 -translate-x-1/2  relative flex justify-center items-center  rounded-lg ">
                 <SlideContentMd instalacion={instalacion} />
               </div>
             </SwiperSlide>
